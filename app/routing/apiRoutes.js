@@ -36,7 +36,7 @@ module.exports = function (app) {
         }
       }
     }
-    vampireArray.push(userData);
+    // vampireArray.push(userData);
 
     res.json(bestMatch);
   });
