@@ -81,7 +81,7 @@ var vampireArray = [
 	},
 	{
 		name: 'Eric Brooks/Blade (from Blade)',
-		photo: "http://cdn1-www.craveonline.com/assets/mandatory/legacy/2016/05/man_file_1067374_20_UW_Beckinsale_eyes.jpg",
+		photo: "https://i.kinja-img.com/gawker-media/image/upload/s--TRzTNAJZ--/c_scale,fl_progressive,q_80,w_800/d8wcaxiwus2qmdsodif6.png",
 		scores: [
 			'1',
 			'1',
