@@ -177,7 +177,7 @@ var vampireArray = [
 	},
 	{
 		name: 'Count von Count (from Sesame Street)',
-		photo: "https://cdn.images.express.co.uk/img/dynamic/36/590x/Twilight-star-Robert-Pattinson-as-Edward-Cullen-794437.jpg",
+		photo: "https://www.mormontabernaclechoir.org/content/dam/motab/blog/2014/12/count-790.png/_jcr_content/renditions/cq5dam.web.1280.1280.png",
 		scores: [
 			'5',
 			'4',
