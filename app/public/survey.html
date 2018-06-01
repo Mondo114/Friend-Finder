@@ -12,16 +12,16 @@
     <!-- Chosen -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
 
-    <link rel="stylesheet" href="./style.css">
-
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
 
     <!-- Link to the jQuery Library -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="./style.css">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="./blood-drop1.png">
 
 </head>
 
@@ -57,7 +57,7 @@
                         <strong>Question 1</strong>
                     </h3>
                     <h4>You genuinely enjoy being a vampire.</h4>
-                    <select data-placeholder="" class="chosen-select" id="q1">
+                    <select data-placeholder="" class="dropdown" id="q1">
                         <option class="drop-down choose" value="" selected disabled>Choose</option>
                         <option class="drop-down" value="1">1 (Strongly Disagree)</option>
                         <option class="drop-down" value="2">2</option>
@@ -72,7 +72,7 @@
                         <strong>Question 2</strong>
                     </h3>
                     <h4>Love is very important to you.</h4>
-                    <select data-placeholder="" class="chosen-select" id="q2">
+                    <select data-placeholder="" class="dropdown" id="q2">
                         <option class="drop-down choose" value="" selected disabled>Choose</option>
                         <option class="drop-down" value="1">1 (Strongly Disagree)</option>
                         <option class="drop-down" value="2">2</option>
@@ -87,7 +87,7 @@
                         <strong>Question 3</strong>
                     </h3>
                     <h4>You take pleasure in killing your own kind.</h4>
-                    <select data-placeholder="" class="chosen-select" id="q3">
+                    <select data-placeholder="" class="dropdown" id="q3">
                         <option class="drop-down choose" value="" selected disabled>Choose</option>
                         <option class="drop-down" value="1">1 (Strongly Disagree)</option>
                         <option class="drop-down" value="2">2</option>
@@ -102,7 +102,7 @@
                         <strong>Question 4</strong>
                     </h3>
                     <h4>You sparkle when the sun shines on you.</h4>
-                    <select data-placeholder="" class="chosen-select" id="q4">
+                    <select data-placeholder="" class="dropdown" id="q4">
                         <option class="drop-down choose" value="" selected disabled>Choose</option>
                         <option class="drop-down" value="1">1 (Strongly Disagree)</option>
                         <option class="drop-down" value="2">2</option>
@@ -117,7 +117,7 @@
                         <strong>Question 5</strong>
                     </h3>
                     <h4>You die a horrible death when the sun shines on you</h4>
-                    <select data-placeholder="" class="chosen-select" id="q5">
+                    <select data-placeholder="" class="dropdown" id="q5">
                         <option class="drop-down choose" value="" selected disabled>Choose</option>
                         <option class="drop-down" value="1">1 (Strongly Disagree)</option>
                         <option class="drop-down" value="2">2</option>
@@ -132,7 +132,7 @@
                         <strong>Question 6</strong>
                     </h3>
                     <h4>You actually enjoy taking a life in order to get your fill.</h4>
-                    <select data-placeholder="" class="chosen-select" id="q6">
+                    <select data-placeholder="" class="dropdown" id="q6">
                         <option class="drop-down choose" value="" selected disabled>Choose</option>
                         <option class="drop-down" value="1">1 (Strongly Disagree)</option>
                         <option class="drop-down" value="2">2</option>
@@ -147,7 +147,7 @@
                         <strong>Question 7</strong>
                     </h3>
                     <h4>You are an evil vampire.</h4>
-                    <select data-placeholder="" class="chosen-select" id="q7">
+                    <select data-placeholder="" class="dropdown" id="q7">
                         <option class="drop-down choose" value="" selected disabled>Choose</option>
                         <option class="drop-down" value="1">1 (Strongly Disagree)</option>
                         <option class="drop-down" value="2">2</option>
@@ -162,7 +162,7 @@
                         <strong>Question 8</strong>
                     </h3>
                     <h4>Fashion is a very important part of your life.</h4>
-                    <select data-placeholder="" class="chosen-select" id="q8">
+                    <select data-placeholder="" class="dropdown" id="q8">
                         <option class="drop-down choose" value="" selected disabled>Choose</option>
                         <option class="drop-down" value="1">1 (Strongly Disagree)</option>
                         <option class="drop-down" value="2">2</option>
@@ -177,7 +177,7 @@
                         <strong>Question 9</strong>
                     </h3>
                     <h4>You consider youself to be very old-school.</h4>
-                    <select data-placeholder="" class="chosen-select" id="q9">
+                    <select data-placeholder="" class="dropdown" id="q9">
                         <option class="drop-down choose" value="" selected disabled>Choose</option>
                         <option class="drop-down" value="1">1 (Strongly Disagree)</option>
                         <option class="drop-down" value="2">2</option>
@@ -192,7 +192,7 @@
                         <strong>Question 10</strong>
                     </h3>
                     <h4>You enjoy spending time with other vampires.</h4>
-                    <select data-placeholder="" class="chosen-select" id="q10">
+                    <select data-placeholder="" class="dropdown" id="q10">
                         <option class="drop-down choose" value="" selected disabled>Choose</option>
                         <option class="drop-down" value="1">1 (Strongly Disagree)</option>
                         <option class="drop-down" value="2">2</option>
@@ -246,6 +246,8 @@
             </div>
         </footer>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 
     <script type="text/javascript">
         // Chosen CSS
