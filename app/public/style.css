@@ -147,17 +147,3 @@ h4 {
 .footer-div {
     padding: 9px 0px 9px 0px;
 }
-
-@media only screen and (max-width: 1024px) {
-    body, html {
-        overflow: auto !important;
-        max-height: 100% !important;
-    }
-}
-
-@media only screen and (max-width: 550px) {
-    body {
-        background-repeat: repeat !important;       
-        background-size: auto !important;
-    }
-}
